@@ -1,0 +1,22 @@
+{
+    "development": {
+        "username": "owner",
+        "password": "owner",
+        "database": "manager",
+        "host": "127.0.0.1",
+        "port": 5432,
+        "dialect": "postgres"
+    },
+    "test": {
+        "username": "owner",
+        "password": "owner",
+        "database": "manager",
+        "host": "127.0.0.1",
+        "port": 5432,
+        "dialect": "postgres"
+    },
+    "production": {
+        "use_env_variable": "postgres://qdeiutpc:MVRLP7OqC9VOT3opRoL4LBiywTvoX-KO@pellefant.db.elephantsql.com:5432/qdeiutpc",
+        "dialect": "postgres"
+    }
+}

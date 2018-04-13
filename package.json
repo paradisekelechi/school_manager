@@ -1,0 +1,23 @@
+{
+  "name": "student_manager",
+  "version": "1.0.0",
+  "description": "student manager application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "student",
+    "application",
+    "manager"
+  ],
+  "author": "Paradise Kelechi",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "pg": "^7.4.1",
+    "sequelize": "^4.37.6"
+  }
+}
